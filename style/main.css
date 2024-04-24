@@ -1,0 +1,25 @@
+.container_capa{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.msg{
+    flex-direction: column;
+}
+
+@media (max-width: 480px){
+    .container_capa p{
+        padding: 25rem;
+        display: none;
+    }
+
+    .container_capa{
+        justify-content: center;
+    }
+    
+}
+
