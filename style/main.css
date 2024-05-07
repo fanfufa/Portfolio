@@ -5,6 +5,7 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 30px;
+    padding-top: 80px;
     padding-left: 70px;
     padding-right: 70px;
     background-color: rgb(87, 207, 57);
@@ -46,8 +47,23 @@
 /* Fim Sobre */
 
 /* Formações e Experiencia */
-.container_experiencias{
-    background-color: rgb(255, 208, 0);
+.experiencia{
+    display: grid;
+    border: 2px solid;
+}    
+
+.experiencia ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.experiencia li{
+    border: 1px solid;
+    border-radius: 20px;
+    font-size: 82%;
+    padding: 8px;
 }
 
 
@@ -67,8 +83,11 @@
 
 @media (max-width: 700px){
     .container_capa p{
-        padding: 25rem;
         display: none;
+    }
+
+    .msg_capa{
+        padding: 0;
     }
 
     .container_capa{
