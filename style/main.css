@@ -1,14 +1,21 @@
-/* Capa */
+body{
+    /*background-image: linear-gradient(15deg, #64d1a4 0, #53d2af 5.56%, #40d2bb 11.11%, #28d3c6 16.67%, #00d3d1 22.22%, #00d2dc 27.78%, #00d1e6 33.33%, #00d0ef 38.89%, 
+#00cff8 44.44%, #09cdff 50%, #34cbff 55.56%, #4ec8ff 61.11%, #65c5ff 66.67%, #7ac2ff 72.22%, #8ebeff 77.78%, #a1bbff 83.33%, #b2b7ff 88.89%, #c2b2ff 94.44%, #d0aefd 100%);*/
+    background-color: black;
+    color: white;
+}
 
+#mynav .navbar-nav .nav-link{
+    color: white;
+}
+
+/* Capa */
 .container_capa{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 30px;
-    padding-top: 80px;
-    padding-left: 70px;
-    padding-right: 70px;
-    background-color: rgb(87, 207, 57);
+    padding: 80px 70px 200px 70px;
+   /* background-color: rgb(87, 207, 57);*/
 }
 
 .msg_capa{
@@ -18,14 +25,30 @@
     font-size: 1.5rem;
 }
 
+#oi{  
+    font-size: 20px;
+    font-family: "Titan One", sans-serif;
+}
+
+.mycolor{
+    color: rgb(0 182 255);
+}
+
+.container_capa img{
+    width: 200px; 
+    height: 200px; 
+    border-radius: 50%;
+    object-fit: cover;
+}
+
 /* Fim capa */
 
 /*Sobre mim */ 
 .container_me{
-    padding: 35px;
+    padding: 10px 0px 200px;
     display: flex;
     flex-direction: column;
-    background-color: aqua;
+   /* background-color: aqua;*/
 }
 
 #title_me{
@@ -48,7 +71,7 @@
 
 /* Fim Sobre */
 
-/* Formações e Experiencia */
+/* Formaï¿½ï¿½es e Experiencia */
 .experiencia{
     display: grid;
     border: 2px solid;
@@ -75,7 +98,7 @@
     display: flex;
     justify-content: space-around;
     padding: 20px;
-    background-color: rgb(134, 228, 121);
+   /* background-color: rgb(134, 228, 121);*/
 }
 
 
@@ -126,5 +149,9 @@
         width: 60%;
         margin: 20px;
         padding: 1.3rem;
+    }
+
+    #oi{
+        font-size: 4.2rem;
     }
 }

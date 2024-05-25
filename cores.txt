@@ -1,0 +1,13 @@
+background: rgb(35,36,0);
+background: linear-gradient(135deg, rgba(35,36,0,1) 0%, rgba(213,221,10,0.5326505602240896) 6%, rgba(0,212,255,1) 80%);
+
+background-image: linear-gradient(200deg, #ffffa8 0, #ffff75 25%, #ffdc38 50%, #dab200 75%, #ba8e00 100%);
+
+background-image: linear-gradient(200deg, #ffff9a 0, #ffe969 25%, #dfbf2d 50%, #bb9700 75%, #9d7400 100%);
+
+background-image: linear-gradient(90deg, #ff9585 0, #ff9c74 6.25%, #ffa563 12.5%, #ffad53 18.75%,
+ #ffb543 25%, #ffbe34 31.25%, #ffc625 37.5%, #ffcd16 43.75%, #ffd40a 50%, #edda0a 56.25%, #dae016 62.5%, #c6e526 68.75%, #b1ea36 75%, #9aee47 81.25%, #80f158 87.5%, #5ff46a 93.75%, #29f77d 100%);
+
+MELHOR ATÉ AGORA
+background-image: linear-gradient(15deg, #64d1a4 0, #53d2af 5.56%, #40d2bb 11.11%, #28d3c6 16.67%, #00d3d1 22.22%, #00d2dc 27.78%, #00d1e6 33.33%, #00d0ef 38.89%, 
+#00cff8 44.44%, #09cdff 50%, #34cbff 55.56%, #4ec8ff 61.11%, #65c5ff 66.67%, #7ac2ff 72.22%, #8ebeff 77.78%, #a1bbff 83.33%, #b2b7ff 88.89%, #c2b2ff 94.44%, #d0aefd 100%);
