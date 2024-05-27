@@ -1,20 +1,35 @@
 font-family: "Caprasimo", serif;
 
+
+
 font-family: "Poetsen One", sans-serif;
+
+
 
 font-family: "Quicksand", sans-serif;
 
+
 font-family: "Carter One", system-ui;
+
 
 font-family: "Ultra", serif;
 
+
 font-family: "Playball", cursive;
+
 
 font-family: "Protest Riot", sans-serif;
 
+
 font-family: "VT323", monospace;
 
+
+
+ESSA - TEXTO 
 font-family: "Damion", cursive;
 
 
 
+
+ESSA - TÍTULO
+font-family: "Titan One", sans-serif;
