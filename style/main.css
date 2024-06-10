@@ -1,4 +1,4 @@
-body{
+﻿body{
     background-color: rgba(0, 0, 0, 0.899);
     color: white;
 }
@@ -38,6 +38,10 @@ body{
     color: rgb(0 182 255);
 }
 
+.NavbackColor{
+    background-color: rgb(0, 0, 0);
+}
+
 .container_capa img{
     width: 200px; 
     height: 200px; 
@@ -74,7 +78,7 @@ body{
 
 /* Fim Sobre */
 
-/* Forma��es e Experiencia */
+/* Formaï¿½ï¿½es e Experiencia */
 .experiencia{
     display: grid;
     border: 2px solid;
@@ -101,14 +105,17 @@ body{
 
 /* Contato */
 .container_contato{
-    display: grid;
-    padding: 20px;
-    grid-template-areas: 
-    "linkedin"
-    "github"
-    "telefone"
-    "curriculo"
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
 }
+
+.email , .phone, .linkedin, .git, .cv{
+    fill: rgb(0 182 255);
+    width: 50%;
+    /*fill: #eee;*/
+}
+
 
 /*Telas pequenas */
 
@@ -124,10 +131,7 @@ body{
     .container_capa{
         justify-content: center;
     }
-    
-    .container_contato img{
-        width: 2.3rem;
-    }
+
 
     .experiencia{
         padding: 1.3rem;
@@ -152,17 +156,18 @@ body{
         align-items: end;
     }
 
-    .container_contato img{
-        width: 3.7rem;
-    }
-
     .experiencia{
         width: 60%;
-        margin: 20px;
-        padding: 1.3rem;
+        margin-left: 300px;
+        margin-bottom: 40px;
+        padding: 1.7rem;
     }
 
     #oi{
         font-size: 4.2rem;
+    }
+
+    .container_contato{
+        padding-left: 100px;
     }
 }
