@@ -1,0 +1,48 @@
+Pagina toda:
+    Scroll Animation - Animação que vai revelando a tela 
+
+Título introdução: 
+    Letras caindo do céu - EXEMPLO:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animation</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <style>
+       .word {
+  font-size: 48px;
+  position: relative;
+}
+
+.word span {
+  position: absolute;
+  top: -50px; /* Posição inicial acima do viewport */
+  opacity: 0; /* Começa invisível */
+  animation: drop 1.5s forwards; /* Duração da animação */
+  animation-delay: calc(0.1s * var(--index)); /* Atraso variável baseado no índice */
+}
+
+@keyframes drop {
+  to {
+    top: 0; /* Posição final */
+    opacity: 1; /* Torna-se visível */
+  }
+}
+
+  </style>
+</head>
+<body>
+    <div class="word">
+        <span style="--index: 1;">F</span>
+        <span style="--index: 2;">L</span>
+        <span style="--index: 3;">Y</span>
+        <span style="--index: 4;">O</span>
+        <span style="--index: 5;">N</span>
+        <span style="--index: 6;">K</span>
+      </div>      
+</body>
+</html>

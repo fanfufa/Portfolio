@@ -106,16 +106,19 @@
 /* Contato */
 .container_contato{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 50px;
 }
 
 .email , .phone, .linkedin, .git, .cv{
     fill: rgb(0 182 255);
-    width: 50%;
+    width: 25%;
     /*fill: #eee;*/
 }
 
+#linha{
+    padding: 10px;
+}
 
 /*Telas pequenas */
 
@@ -141,6 +144,11 @@
         font-size: 90%;
         padding: 10px;
     }
+
+    .email , .phone, .linkedin, .git, .cv{ 
+        width: 2rem;
+    }
+    
 }
 
 /*Telas Grandes*/
@@ -168,6 +176,6 @@
     }
 
     .container_contato{
-        padding-left: 100px;
+        padding-left: 200px;
     }
 }
