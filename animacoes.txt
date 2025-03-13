@@ -1,8 +1,8 @@
 Pagina toda:
-    Scroll Animation - Animação que vai revelando a tela 
+    Scroll Animation - Animaï¿½ï¿½o que vai revelando a tela 
 
-Título introdução: 
-    Letras caindo do céu - EXEMPLO:
+Tï¿½tulo introduï¿½ï¿½o: 
+    Letras caindo do cï¿½u - EXEMPLO:
 
 <!DOCTYPE html>
 <html lang="en">
@@ -20,16 +20,16 @@ Título introdução:
 
 .word span {
   position: absolute;
-  top: -50px; /* Posição inicial acima do viewport */
-  opacity: 0; /* Começa invisível */
-  animation: drop 1.5s forwards; /* Duração da animação */
-  animation-delay: calc(0.1s * var(--index)); /* Atraso variável baseado no índice */
+  top: -50px; /* Posiï¿½ï¿½o inicial acima do viewport */
+  opacity: 0; /* Comeï¿½a invisï¿½vel */
+  animation: drop 1.5s forwards; /* Duraï¿½ï¿½o da animaï¿½ï¿½o */
+  animation-delay: calc(0.1s * var(--index)); /* Atraso variï¿½vel baseado no ï¿½ndice */
 }
 
 @keyframes drop {
   to {
-    top: 0; /* Posição final */
-    opacity: 1; /* Torna-se visível */
+    top: 0; /* Posiï¿½ï¿½o final */
+    opacity: 1; /* Torna-se visï¿½vel */
   }
 }
 
